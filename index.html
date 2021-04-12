@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Batuhan KAYA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  </head>
+</html>
+<header class="container">
+    <nav id="navbar">
+        <ul>
+        <li><a href="https://medium.com/@batuhan_kaya" target="_blank">BLOG</a></li>
+        <li><a href="Batuhan_KAYA_CV_tr.pdf" download="">CV</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section class="main">
+    <article class="container">
+        <div class="mainChild">
+        <figure>
+            <img src="./images/Base.png" alt="poster" />
+        </figure>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam optio iusto alias? Veniam rem aliquam libero molestias hic. Eligendi maxime nulla hic libero eos illum earum consequuntur. Inventore, minus nesciunt?
+        </p>
+        </div>
+    </article>
+    </section>
+    <article class="skills">
+    <div class="tab">
+        <div class="box">
+        <div class="chart" data-percent="80" data-scale-color="#ffb400">80%</div>
+        <p>HTML</p>
+        </div>
+        <div class="box">
+        <div class="chart" data-percent="72" data-scale-color="#ffb400">72%</div>
+        <p>css</p>
+        </div>
+        <div class="box">
+        <div class="chart" data-percent="50" data-scale-color="#ffb400">50%</div>
+        <p>JavaScript</p>
+        </div>
+        <div class="box">
+        <div class="chart" data-percent="84" data-scale-color="#ffb400">84%</div>
+        <p>Bootstrap</p>
+        </div>
+    </div>
+    </article>
+    <footer class="">
+        <a href="https://www.linkedin.com/in/batuhan-kaya/" target="_blank">
+          <div class="icon" style="background-image: url(./icons/052-linkedin.svg)"></div>
+        </a>
+        <a href="https://github.com/batuhan-kaya" target="_blank">
+          <div class="icon" style="background-image: url(./icons/github.svg)"></div>
+        </a>
+        <a href="http://twitter.com/riopaclown" target="_blank">
+          <div class="icon" style="background-image: url(./icons/096-twitter.svg)"></div>
+        </a>
+        <a href="mailto: batuhan@pieldies.com" target="_blank">
+          <div class="icon" style="background-image: url(./icons/email.svg)"></div>
+        </a>
+      </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
+        <script>
+        $(function () {
+            $(".chart").easyPieChart({
+            size: 160,
+            barColor: "#FA862D",
+            scaleLength: 0,
+            lineWidth: 5,
+            trackColor: "#373737",
+            lineCap: "circle",
+            animate: 2000,
+            });
+        });
+        </script>
+    </body>
+</html>
